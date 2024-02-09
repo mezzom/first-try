@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; /* Montserrat als primäre Schriftart */
+    background-color: #f2f2f2; /* Hintergrundfarbe für den Fall, dass das Hintergrundbild nicht geladen werden kann */
+    background-image: url('back.jpg'); /* Pfad zum Hintergrundbild anpassen */
+    background-size: cover; /* Bild so skalieren, dass es den gesamten Hintergrund bedeckt */
+    background-repeat: no-repeat; /* Hintergrundbild nicht wiederholen */
+    background-attachment: fixed; /* Hintergrund beim Scrollen fixieren */
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.logo img {
+    width: 400px; /* Hier die Breite deines Logos anpassen */
+}
+
+.text p {
+    font-size: 30px;
+    color: #333;
+}
+
+.work p {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+}
+
+.name p {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+}
